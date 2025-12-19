@@ -1,0 +1,517 @@
+{
+  "id": "ea94ee02-bbac-4f7a-82f1-9a4151ccb943",
+  "version": "2.0",
+  "name": "s22009929_Section_C",
+  "url": "https://srilankatravel.app/",
+  "tests": [{
+    "id": "1ed1905c-759c-4778-9db5-3c9a0aa494c3",
+    "name": "TestCase_02",
+    "commands": [{
+      "id": "c92bf3f7-39fc-4377-8f68-d65d5daf8caf",
+      "comment": "",
+      "command": "open",
+      "target": "https://srilankatravel.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a1b9dd5-a6ee-4ad7-8edc-977ccabb4162",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x759",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26a4f476-f1cb-4c45-8176-876a456b9fd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-15379 > a",
+      "targets": [
+        ["css=#menu-item-15379 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tour Packages')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-15379']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://srilankatravel.app/sri-lankan-tours/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1b62111-c014-4491-980e-c2f004c1a9cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=location_name_tour",
+      "targets": [
+        ["id=location_name_tour", "id"],
+        ["name=location_name", "name"],
+        ["css=#location_name_tour", "css:finder"],
+        ["xpath=//input[@id='location_name_tour']", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-destination-tour']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d4f1d64-91da-4943-84d7-8bb547780e18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(3) > .parent",
+      "targets": [
+        ["css=.item:nth-child(3) > .parent", "css:finder"],
+        ["xpath=//div[@id='st-content-wrapper']/div/div/div/div/div/div/div/div/form/div/div[2]/ul/li[3]/span", "xpath:idRelative"],
+        ["xpath=//li[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Colombo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70079981-b6e9-47f3-8d61-34755bc954e3",
+      "comment": "",
+      "command": "click",
+      "target": "name=date",
+      "targets": [
+        ["name=date", "name"],
+        ["css=.check-in-out", "css:finder"],
+        ["xpath=//input[@name='date']", "xpath:attributes"],
+        ["xpath=//div[@id='st-content-wrapper']/div/div/div/div/div/div/div/div/form/div[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a9256f6-bbd5-4011-a6c9-edb56479b7d7",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.col-12:nth-child(2) .image-feature",
+      "targets": [
+        ["css=.col-12:nth-child(2) .image-feature", "css:finder"],
+        ["xpath=//img[@alt='From Colombo: Ramayana Trail and Seetha Amman 6-Day Tour']", "xpath:img"],
+        ["xpath=//div[@id='modern-search-result']/div[2]/div[2]/div/div/div/a[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44940b65-a062-4dd3-95f5-f10887aebedc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.banner",
+      "targets": [
+        ["css=.banner", "css:finder"],
+        ["xpath=//div[@id='st-content-wrapper']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3775761-f3b5-4e2c-92ba-052bca03749a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-search",
+      "targets": [
+        ["css=.btn-search", "css:finder"],
+        ["xpath=//div[@id='st-content-wrapper']/div/div/div/div/div/div/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a16ac116-cb15-4236-83f2-88b336a42407",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-logo",
+      "targets": [
+        ["css=.custom-logo", "css:finder"],
+        ["xpath=//img[@alt='Sri Lanka Travel Booking App']", "xpath:img"],
+        ["xpath=//header[@id='header']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82f5dd0e-62b4-4412-a064-167eddbb9be0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8ec255cd-9308-42a9-9541-91fc4325d9d8",
+    "name": "TestCase_01",
+    "commands": [{
+      "id": "6e9f3b94-dddc-4259-9ac3-e6cd7331aa60",
+      "comment": "",
+      "command": "open",
+      "target": "https://srilankatravel.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea728506-82c9-4c94-86ff-b5a3399fe316",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1026x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e8b7d42-f5eb-49e6-a34a-47b574d39434",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[@id='menu-item-15377']/a",
+      "targets": [
+        ["css=#menu-item-15377 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hotels Resorts & Villas')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-15377']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://srilankatravel.app/hotels-in-sri-lanka/')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2626dca0-a21c-44ae-bd9c-6b2861769dbd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[@id='menu-item-15379']/a",
+      "targets": [
+        ["css=#menu-item-15379 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tour Packages')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-15379']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://srilankatravel.app/sri-lankan-tours/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca027c89-b1c4-4ab5-8c3f-8e570a2ac62c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[@id='menu-item-20593']/a",
+      "targets": [
+        ["css=#menu-item-20593 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Travel Activities')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-20593']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://srilankatravel.app/travel-activities-in-sri-lanka/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaa0257e-b800-4d4b-9bdc-bfcd82ba6671",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//header[@id='header']/div[2]/div/a/img",
+      "targets": [
+        ["css=.custom-logo", "css:finder"],
+        ["xpath=//img[@alt='Sri Lanka Travel Booking App']", "xpath:img"],
+        ["xpath=//header[@id='header']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2574cdd-9a64-4aaf-a8b6-827fcb8ea207",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.custom-logo",
+      "targets": [
+        ["css=.custom-logo", "css:finder"],
+        ["xpath=//img[@alt='Sri Lanka Travel Booking App']", "xpath:img"],
+        ["xpath=//header[@id='header']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb818399-93d1-4528-9bc4-123237bc480e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-logo",
+      "targets": [
+        ["css=.custom-logo", "css:finder"],
+        ["xpath=//img[@alt='Sri Lanka Travel Booking App']", "xpath:img"],
+        ["xpath=//header[@id='header']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "095d2d30-3552-47d0-8591-661ec2c16e1e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f65692de-024d-4dc3-a08e-caa589b43d37",
+    "name": "TestCase_03",
+    "commands": [{
+      "id": "94d5faa1-5986-41c9-bee3-55fe2b36a293",
+      "comment": "",
+      "command": "open",
+      "target": "https://srilankatravel.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "227e6a3a-bf4a-4fef-9143-8e345bbbd525",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x759",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65ba3bec-5352-480e-9da9-3c8cbfce22f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-15379 > a",
+      "targets": [
+        ["css=#menu-item-15379 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tour Packages')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-15379']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://srilankatravel.app/sri-lankan-tours/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab5afcb9-42d2-4d04-a548-5c3bd0a434b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-15379 > a",
+      "targets": [
+        ["css=#menu-item-15379 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tour Packages')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-15379']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://srilankatravel.app/sri-lankan-tours/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bcd86ed-3c7c-41d7-9e2b-bbfb17913afa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Us",
+      "targets": [
+        ["linkText=Contact Us", "linkText"],
+        ["css=.elementor-element-38405f7 a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//footer[@id='main-footer']/div/section/div/div[3]/div/div[3]/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://srilankatravel.app/contact/')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div[3]/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c157b268-34d6-40f1-96ac-08665c697895",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=your-name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f6-p707-o1']/form/div[2]/h3/div/div/div/div/p/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d23449ea-4ac1-4926-9e2c-4c87d6a6efc1",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=your-name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f6-p707-o1']/form/div[2]/h3/div/div/div/div/p/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Devindya"
+    }, {
+      "id": "4fef1d91-adb7-4d16-b588-10f710ff26b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=your-phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f6-p707-o1']/form/div[2]/h3/div/div/div[2]/div/p/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/p/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6868cfa-7b91-4f04-8e8e-9a4f3f1ae89f",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "name=your-phone",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f85c11c1-5f65-4812-9f5e-1fea856d5bb9",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email-139", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f6-p707-o1']/form/div[2]/h3/div/div[2]/div/div/p/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/p/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15427004-2ff4-43c8-bccb-bd1014549dcb",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "id=email",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9df6a718-9443-4a92-a691-202c05cbb175",
+      "comment": "",
+      "command": "click",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f6-p707-o1']/form/div[2]/h3/div/div[3]/p/span/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64526c9a-5965-455a-befb-39e03f59411a",
+      "comment": "",
+      "command": "type",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f6-p707-o1']/form/div[2]/h3/div/div[3]/p/span/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "I love this website"
+    }, {
+      "id": "782cd7d3-6c29-4d84-a2ed-b907d1fb8a9a",
+      "comment": "",
+      "command": "verifyChecked",
+      "target": "css=.wpcf7-submit",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23b300df-1135-4411-a113-77f71c827cfe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e6462e25-9f12-4e81-9063-177e62182769",
+    "name": "TestCase_04",
+    "commands": [{
+      "id": "bddc6983-9108-4e20-b744-3ce55cb71731",
+      "comment": "",
+      "command": "open",
+      "target": "https://srilankatravel.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ab30c50-dbbe-4580-97ec-bbea599d1b20",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x759",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "457e01cb-07aa-4998-ad27-4d37b25eb8a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-15377 > a",
+      "targets": [
+        ["css=#menu-item-15377 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hotels Resorts & Villas')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-15377']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://srilankatravel.app/hotels-in-sri-lanka/')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aca3072b-8115-4ed7-ac3f-7ea46f17c1c1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,232)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6709174-35a8-41c1-8759-f3589ac31431",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Yala Leopard Lodge",
+      "targets": [
+        ["linkText=Yala Leopard Lodge", "linkText"],
+        ["css=.col-lg-4:nth-child(1) .c-main", "css:finder"],
+        ["xpath=//a[contains(text(),'Yala Leopard Lodge')]", "xpath:link"],
+        ["xpath=//div[@id='modern-search-result']/div[2]/div/div/div/div[2]/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://srilankatravel.app/st_hotel/yala-leopard-lodge/')])[2]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Yala Leopard Lodge')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f70b550f-177a-4350-9c06-b1f0515f82d2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1912)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0febbd83-4a38-4784-a3d9-dba7c29f82d9",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "css=.media > p:nth-child(4)",
+      "targets": [],
+      "value": "httpp://www.leopardlodge.com"
+    }, {
+      "id": "9146d8d9-de98-4db6-b964-5a7d5a763149",
+      "comment": "",
+      "command": "click",
+      "target": "css=.media > p:nth-child(2)",
+      "targets": [
+        ["css=.media > p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='st-content-wrapper']/div[3]/div/div[2]/div/div/div[4]/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'yalaleopardlodgesrilanka@gmail.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70b52908-3c1a-4e30-a0e2-9fdf717cd97d",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "css=p:nth-child(6)",
+      "targets": [],
+      "value": "+94762762762"
+    }, {
+      "id": "191ed2af-f434-442d-a492-a7c4ce3008ed",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Sri Lanka Travel Booking App']",
+      "targets": [
+        ["css=.custom-logo", "css:finder"],
+        ["xpath=//img[@alt='Sri Lanka Travel Booking App']", "xpath:img"],
+        ["xpath=//header[@id='header']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3872e079-f6c0-4ca1-97ce-f50b837a9775",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "676cb60e-b7ba-429f-b4f8-9dde0c6072db",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1ed1905c-759c-4778-9db5-3c9a0aa494c3"]
+  }],
+  "urls": ["https://srilankatravel.app/", "https://demoqa.com/text-box"],
+  "plugins": []
+}
